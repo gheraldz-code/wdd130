@@ -175,4 +175,5 @@ footer p {
     justify-self: end;
     display: flex;
     gap: 10px;
+    text-decoration: none;
 }
