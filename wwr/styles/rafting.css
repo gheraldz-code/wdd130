@@ -48,7 +48,6 @@ nav,
 p {
     margin: 10px;
     padding: 8px;
-    text-decoration: none;
 }
 
 #logo {
@@ -174,4 +173,8 @@ footer p {
     grid-column: 3;
     justify-self: end;
     gap: 5px;
+}
+
+nav a {
+    text-decoration: none;
 }
