@@ -196,6 +196,12 @@ nav a {
     align-items: flex-start;
 }
 
+.contact-flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
 article p {
     top: 1px;
     width: 100%;
@@ -242,6 +248,10 @@ fieldset {
     margin-bottom: 1rem;
 }
 
+fieldset label {
+    width: 20px;
+}
+
 .form-group fieldset {
     flex: 1;
 }
@@ -261,4 +271,14 @@ input {
     align-items: center;
     gap: .5rem;
     margin-bottom: 1rem;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    border: 1px solid #999;
+    cursor: pointer;
 }
